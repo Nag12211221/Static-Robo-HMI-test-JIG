@@ -2,6 +2,12 @@
 
 This repository documents a starting plan for building a static robotic HMI test jig similar to the supplied reference fixture: a rigid aluminum-frame test station with modular connector panels, routed harnessing, alignment hardware, and an electrical control/test system.
 
+## PDF Build Guide
+
+- [Download the self-contained visual PDF build guide](docs/Static_Robo_HMI_Test_Jig_Build_Guide.pdf)
+- The PDF includes local illustrated pages for the frame, connector panels, wiring harness, control box, test flow, BOM, and pinout templates.
+- It does not depend on remote image downloads, so the guide still works when GitHub attachment images are unavailable.
+
 ## Visual Reference Photos
 
 Use these photos as the visual target for the fixture style, layout, and cable routing.
