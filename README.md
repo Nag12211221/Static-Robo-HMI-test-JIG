@@ -5,6 +5,7 @@ This repository documents a starting plan for building a static robotic HMI test
 ## PDF Build Guide
 
 - [Download the self-contained visual PDF build guide](docs/Static_Robo_HMI_Test_Jig_Build_Guide.pdf)
+- [Download the detailed PowerPoint research report comparing the static HMI test jig with a robotic hand](docs/Static_Robo_HMI_Test_Jig_vs_Robotic_Hand_Research_Report.pptx)
 - The PDF includes local illustrated pages for the frame, connector panels, wiring harness, control box, test flow, BOM, and pinout templates.
 - It does not depend on remote image downloads, so the guide still works when GitHub attachment images are unavailable.
 
