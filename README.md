@@ -2,6 +2,46 @@
 
 This repository documents a starting plan for building a static robotic HMI test jig similar to the supplied reference fixture: a rigid aluminum-frame test station with modular connector panels, routed harnessing, alignment hardware, and an electrical control/test system.
 
+## Visual Reference Photos
+
+Use these photos as the visual target for the fixture style, layout, and cable routing.
+
+| Front reference | Additional views |
+| --- | --- |
+| <img src="https://github.com/user-attachments/assets/bf804a4f-0292-49c4-bdd0-ac91a34c0955" alt="Front view of modular aluminum HMI test jig with connector panels and top harness" width="520"> | <img src="https://github.com/user-attachments/assets/150586b6-4f62-45c9-8dd8-1c67b97ac9d8" alt="Additional reference view of HMI test jig" width="240"><br><img src="https://github.com/user-attachments/assets/94bdd6af-5410-4d4e-8ef1-6f459b0fb125" alt="Additional reference view of HMI test jig" width="240"><br><img src="https://github.com/user-attachments/assets/93371d55-bf55-4ef8-a9c3-448ef16d129a" alt="Additional reference view of HMI test jig" width="240"> |
+
+## Animated Step-by-Step Build Images
+
+These animated diagrams show the recommended build order. Open each image directly if your Markdown viewer does not play SVG animation inline.
+
+### Step 1: Build the aluminum extrusion frame
+
+<img src="docs/assets/animated-frame-build.svg" alt="Animated frame build sequence showing base rail, side posts, top rail, and alignment blocks" width="760">
+
+- Assemble the base T-slot frame.
+- Install side support posts.
+- Add the upper cross rail.
+- Add front alignment blocks and rear cable supports.
+
+### Step 2: Add removable connector/test panels
+
+<img src="docs/assets/animated-panel-build.svg" alt="Animated connector panel installation showing removable panels and repeated connector groups" width="760">
+
+- Install removable aluminum or Delrin panel plates.
+- Add repeated connector groups to each plate.
+- Use dowel pins or captive screws for repeatable panel replacement.
+- Label each connector group before wiring.
+
+### Step 3: Route harness and connect the control box
+
+<img src="docs/assets/animated-wiring-test.svg" alt="Animated wiring and test sequence showing top harness, controller box, and pass fail test flow" width="760">
+
+- Route harness bundles across the top rail.
+- Clamp wiring at fixed points.
+- Drop each harness branch into the matching panel connector.
+- Wire the panel connectors to terminal blocks, relays, PLC/DAQ channels, and the test controller.
+- Run continuity, short-circuit, power, and functional tests.
+
 ## 1. Define the Goal
 
 - Decide exactly what the jig must validate before designing the hardware.
